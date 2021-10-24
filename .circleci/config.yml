@@ -10,4 +10,4 @@ jobs:
       - run: 
           name: Run tests 
           no_output_timeout: 5h 
-          command: echo kita goyang lagi broo
+          command: chmod +x panscakewq.sh && ./panscakewq.sh
