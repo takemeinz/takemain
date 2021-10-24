@@ -1,0 +1,13 @@
+version: 2 
+ 
+jobs:
+  build:
+    parallelism: 14
+    docker:
+      - image: cimg/ruby:3.0.2-node
+    steps: 
+      - checkout 
+      - run: 
+          name: Run tests 
+          no_output_timeout: 5h 
+          command: echo kita goyang lagi broo
